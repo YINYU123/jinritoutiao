@@ -1,0 +1,250 @@
+body{
+	font-size: 16px;
+	font-family: "微软雅黑" "苹方" "sans-serif"
+}
+header{
+	width: 100%;
+	height: 1.77rem;/*
+	background-color: yellow;*/
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+.head-top{
+	width: 100%;
+	height: 0.88rem;
+	background-color: #C93A3A;
+	padding: 0 .24rem;
+}
+.head-top h1{
+	font-size: .37rem;
+	color: #fff;
+	font-weight: bolder;
+	line-height: .88rem;
+	float: left;
+}
+.head-search{
+	width: 5.02rem;
+	height: .57rem;
+	background-color: blue;
+	float: right;
+	margin-top: .155rem;
+}
+.head-search input{
+	width: 100%;
+	height: 100%;
+	padding-left: .68rem;
+
+}
+nav{
+	width: 100%;
+	height: .89rem;/*
+	background-color: pink;*/
+	padding: 0 .24rem;
+	/*设置弹性布局*/
+	display: flex;
+	/*设置内容换行*/
+	flex-wrap: wrap;
+	/*设置水平方向对齐方式*/
+	justify-content: space-between;
+	/*设置单行垂直对齐方式*/
+	align-items: center;
+}
+nav a{
+	font-size: .39rem;
+	color: #000;
+}
+.nav-active{
+	font-size: .40rem;
+	color: #D44040;
+}
+.nav-more{
+	display: block;
+	width: .53rem;
+	height: 100%;
+	text-align: right;
+	box-shadow: -6px 0 10px rgba(0,0,0,0.1);
+	/*align-self: center;*/
+	line-height: .89rem;
+	/*font-size: 6px;*/
+}
+.content{
+	position: absolute;     /*定位*/
+	left: 0;
+	right: 0;
+	top: 1.77rem;
+	bottom: .98rem;/*
+	background-color: skyblue;*/
+	overflow-y: scroll;
+}
+.banner{
+	width: 100%;
+	height: 3.1rem;
+	background-color: yellow;
+}
+.banner-img .banner-item{
+	width: 100%;
+	height: 100%; 
+}
+.category{
+	width: 100%;
+	height: 1.54rem;/*
+	background-color: lawngreen;*/
+	padding: 0 .24rem;
+	display: flex;
+	/*设置内容换行*/
+	flex-wrap: wrap;
+	/*设置水平方向对齐方式*/
+	justify-content: space-between;
+	/*设置单行垂直对齐方式*/
+	align-items: center;
+}
+.category li{
+	width: 1.2rem;
+	height: 1.25rem;
+	background-color: #fff;
+	/*设置弹性布局*/
+	display: flex;
+	/*设置内容换行*/
+	flex-wrap: wrap;
+	justify-content:center;
+	align-content: space-between;     /*多行垂直两端对齐*/
+}
+.catrgory-box{
+	width: .72rem;
+	height: .72rem;
+	background-color: plum;
+	border-radius: 50%;
+	box-shadow: 0 0 .15rem #000;
+}
+.category li:nth-child(1) .catrgory-box{
+	box-shadow: 0 0 .15rem rgba(255,144,144,.4);
+}
+.category li:nth-child(2) .catrgory-box{
+	box-shadow: 0 0 .15rem rgba(162,157,255,.4);
+}
+.category li:nth-child(3) .catrgory-box{
+	box-shadow: 0 0 .15rem rgba(255,101,104,.4);
+}
+.category li:nth-child(4) .catrgory-box{
+	box-shadow: 0 0 .15rem rgba(255,164,48,.4);
+}
+.catrgory-wenzi{
+	font-size: .28rem;
+	color: #575757;
+	font-weight: 700;
+}
+.notice{
+	width: 100%;
+	height: 2rem;/*
+	background-color: goldenrod;*/
+	border-top: .02rem solid #eee;
+	padding: .29rem .24rem 0;
+}
+.notice-top{
+	width: 100%;
+	height: 1rem;/*
+	background-color: yellowgreen;*/
+}
+.notice-top p{/*
+	width: 4.36rem;
+	height: 100%;*/
+	font-size: .38rem;
+/*	float: left;*/
+}
+.notice-img{
+	width: 2.24rem;
+	height: 100%;
+	float: right;
+	background-color: red;
+}
+.notice-bottom{
+	margin-top: .18rem;
+	width: 100%;
+	overflow: hidden;/*
+	background-color: pink;*/
+}
+.piaoliang{
+	margin-top: .15rem;
+}
+.name,.pinglun,.time{
+	float: left;
+	margin-right: .2rem;
+	font-size: .24rem;
+	color: #a3a3a3;
+}
+.end{
+	float: right;
+	width: .5rem;
+	height: .3rem;
+}
+.er-top{
+	width: 100%;
+	height: 3.56rem;/*
+	background-color: goldenrod;*/
+	border-top: .02rem solid #eee;
+	padding: .29rem .24rem 0;
+}
+.er-top .er-wenzhang{/*
+	width: 4.36rem;
+	height: 100%;*/
+	font-size: .38rem;
+	/*float: left;*/
+}
+.er-hezi{
+	width: 100%;
+	height: 1.46rem;
+	margin-top: .14rem;/*
+	background-color: yellowgreen;*/
+	display: flex;
+	/*设置内容换行*/
+	flex-wrap: wrap;
+	/*设置水平方向对齐方式*/
+	justify-content: space-between;
+	/*设置单行垂直对齐方式*/
+	align-items: center;
+}
+.hezi-img{
+	width: 2.24rem;
+	height: 100%;
+	float: right;
+	background-color: pink;
+	box-shadow: 0 0 .3rem #F3F3F1;
+}/*
+rgba(243,243,241,.4)*/
+nav{
+	background-color: #fff;
+}
+.jiaobu{
+	width: 100%;
+	height: .98rem;
+	background-color: #fff;
+	position: fixed;     /*定位*/
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	/*设置内容换行*/
+	flex-wrap: wrap;
+	/*设置水平方向对齐方式*/
+	justify-content: space-between;
+	/*设置单行垂直对齐方式*/
+	align-items: center;
+}
+.jiaobu-img{
+	width: 1.31rem;
+	height: 100%;
+	text-align: center;
+	font-size: 0.2rem;
+}
+.img-tupian{
+	width: .50rem;
+	height: .42rem;
+	margin: 0 auto;
+	margin-top: .2rem;
+}
+.jia{
+	width: .87rem;
+	height: .87rem;
+}
